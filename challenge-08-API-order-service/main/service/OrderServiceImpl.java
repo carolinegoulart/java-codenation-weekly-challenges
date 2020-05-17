@@ -9,9 +9,11 @@ import br.com.codenation.model.Product;
 import br.com.codenation.repository.ProductRepository;
 import br.com.codenation.repository.ProductRepositoryImpl;
 
+import static java.util.stream.Collectors.groupingBy;
+
 public class OrderServiceImpl implements OrderService {
 
-	final double DISCOUNT = 0.2;
+	final static double DISCOUNT = 0.2;
 
 	private ProductRepository productRepository = new ProductRepositoryImpl();
 
@@ -25,10 +27,7 @@ public class OrderServiceImpl implements OrderService {
 
 	@Override
 	public Set<Product> findProductsById(List<Long> ids) {
-		return ids.stream()
-			.filter(this::checkIfIdExists)
-			.map(this::getProduct)
-			.collect(Collectors.toSet());
+		return new HashSet<>(findProductsByIdAndReturnAList(ids));
 	}
 
 	@Override
@@ -41,19 +40,12 @@ public class OrderServiceImpl implements OrderService {
 
 	@Override
 	public Map<Boolean, List<Product>> groupProductsBySale(List<Long> productIds) {
-
-		Map<Boolean, List<Product>> map = new HashMap<Boolean, List<Product>>();
-		List<Product> productsOnSale = filterBy(product -> product.getIsSale(), productIds);
-		List<Product> productsNotOnSale = filterBy(product -> !product.getIsSale(), productIds);
-
-		map.put(true, productsOnSale);
-		map.put(false, productsNotOnSale);
-
-		return map;
+		List<Product> products = findProductsByIdAndReturnAList(productIds);
+		return products.stream().collect(groupingBy(Product::getIsSale));
 	}
 
 	public List<Product> filterBy(Predicate<Product> predicate, List<Long> productIds) {
-		return findProductsByIdList(productIds).stream()
+		return findProductsByIdAndReturnAList(productIds).stream()
 			.filter(predicate)
 			.collect(Collectors.toList());
 	}
@@ -66,7 +58,7 @@ public class OrderServiceImpl implements OrderService {
 		return product.getValue();
 	}
 
-	public List<Product> findProductsByIdList(List<Long> ids) {
+	public List<Product> findProductsByIdAndReturnAList(List<Long> ids) {
 		return ids.stream()
 			.filter(this::checkIfIdExists)
 			.map(this::getProduct)
@@ -74,10 +66,8 @@ public class OrderServiceImpl implements OrderService {
 	}
 
 	public Product getProduct(Long id) {
-		if (productRepository.findById(id).isPresent()) {
-			return productRepository.findById(id).get();
-		}
-		return null;
+		Optional<Product> product = productRepository.findById(id);
+		return product.orElse(null);
 	}
 
 	public boolean checkIfIdExists(Long id) {

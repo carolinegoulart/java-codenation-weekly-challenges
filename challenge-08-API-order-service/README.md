@@ -1,6 +1,6 @@
 <h3>Challenge 8: API Order Service (streams, entities, repositories)</h3>
 
-The main task was to implement the methods on the OrderServiceImplementation file:</h3>
+The main task was to implement the methods in the OrderServiceImplementation file:</h3>
 
 `Double calculateOrderValue(List items)`
 

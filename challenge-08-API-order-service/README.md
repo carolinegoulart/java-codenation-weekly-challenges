@@ -1,4 +1,4 @@
-<h3>Challenge 8: API Order Service (streams, entities, repositories)</h3>
+<h2>Challenge 8: API Order Service (streams, entities, repositories)</h2>
 
 The main task was to implement the following methods in the OrderServiceImplementation file:</h3>
 

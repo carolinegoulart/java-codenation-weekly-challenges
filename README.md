@@ -24,14 +24,14 @@ Resolution of weekly Java challenges from the bootcamp AceleraDev Java hosted by
 * [Challenge 2: Calculating mean, mode and median (methods, lists, conditional, iterative statements)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-01-salary-calculator)
 Implement mean, mode and median methods using lists, conditional, and iterative statements.
 
-* [Challenge 3: Parking manager system (builder, methods, inheritance, exceptions)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-03-parking-manager-system)
+* [Challenge 3: Parking manager system (exceptions, builder, methods, inheritance)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-03-parking-manager-system)
 <br>Create a parking manager system using the builder pattern, applying inheritance and handling exceptions. 
 
-* [Challenge 4: Football teams manager system (streams, inheritance, polymorphism, abstract classes)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-04-football-teams-manager-system)
-<br>Implement several methods as listed in the [TeamsApplicationManager](https://github.com/carolinegoulart/java-codenation-weekly-challenges/blob/master/challenge-04-football-teams-manager-system/DesafioMeuTimeApplication.java) file, understanding concepts like collections, streams API, inheritance, polymorphism, and abstract classes.
+* [Challenge 4: Football teams manager system (exceptions, streams, inheritance, polymorphism, abstract classes)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-04-football-teams-manager-system)
+<br>Implement several methods as listed in the [TeamsApplicationManager](https://github.com/carolinegoulart/java-codenation-weekly-challenges/blob/master/challenge-04-football-teams-manager-system/DesafioMeuTimeApplication.java) file, understanding concepts like exceptions, collections, streams API, inheritance, polymorphism, and abstract classes.
 
 * [Challenge 5: Classes manager (interfaces, annotations, Java reflection)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-05-classes-manager)
-<br>Use Java Reflection and annotations to implement the methods in the [ClassCalculator](https://github.com/carolinegoulart/java-codenation-weekly-challenges/blob/master/challenge-05-classes-manager/challenge/CalculadorDeClasses.java) file, searching for classes that have fields of type BigDecimal annotated with either @Sum or @subtract, and performing these opperations.
+<br>Use Java Reflection and annotations to implement the methods in [this](https://github.com/carolinegoulart/java-codenation-weekly-challenges/blob/master/challenge-05-classes-manager/challenge/CalculadorDeClasses.java) file, searching for classes that have fields of type BigDecimal annotated with either @Sum or @subtract, and performing these opperations.
 
 * [Challenge 6: Creating entities with JPA (Hibernate, Spring Data JPA, entities, Spring Boot)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-06-creating-entities-with-JPA-and-H2-Database)
 <br>Create the classes (entities) according to a received entity framework with the relationships between entities, using Hibernate, Spring Data JPA, and annotations (@OneToMany, @ManyToOne, etc) to stablish the relationships. The .java files are in the [entities](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-06-creating-entities-with-JPA-and-H2-Database/java/entity) folder.

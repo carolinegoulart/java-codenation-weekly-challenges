@@ -26,7 +26,8 @@ Resolution of weekly Java challenges from the bootcamp AceleraDev Java hosted by
 
 * [Challenge 6: Creating entities with JPA (Hibernate, Spring Data JPA, entities, Spring Boot)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-06-creating-entities-with-JPA-and-H2-Database)
 <br>
-Create the classes (entities) according to a received entity framework with the relationships between entities, using Hibernate, Spring Data JPA, and annotations (@OneToMany, @ManyToOne, etc) to stablish the relationships. The .java files are in the  [entities](http://google.com)  folder. I've used the in-memory H2 database to test the entities.
+Create the classes (entities) according to a received entity framework with the relationships between entities, using Hibernate, Spring Data JPA, and annotations (@OneToMany, @ManyToOne, etc) to stablish the relationships. The .java files are in the  
+[entities)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-08-API-order-service)folder. I've used the in-memory H2 database to test the entities.
 
 * [Challenge 7: Creating entities with Spring and H2 Database (Hibernate, Spring Data JPA, Spring Boot)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-07-creating-entities-with-jpa-and-h2-database)
 

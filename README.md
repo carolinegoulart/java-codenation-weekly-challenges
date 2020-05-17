@@ -8,15 +8,15 @@
     Weekly Challenges
 </h1>
 
-##:rocket: About this repository
+## :rocket: About this repository
 
 Resolution of weekly Java challenges from the bootcamp AceleraDev Java hosted by Codenation
 
-##:hammer: Tools
+## :hammer: Tools
 * Java 8, JUnit 4, Spring, Spring Boot, JPA, Hibernate, Maven<br>
 * MVC Design pattern (for the more advanced challenges), IDE IntellieJ Idea
 
-##:pencil: Challenges
+## :pencil: Challenges
 
 * [Challenge 1: Salary calculator (methods, lists, conditional and iterative statements)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-01-salary-calculator)<br>
 * [Challenge 2: Calculating mean, mode and median (methods, lists, conditional and iterative statements)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-01-salary-calculator)

@@ -1,11 +1,13 @@
 <p align="center">
     <img alt="Logo Codenation" src="https://media-exp1.licdn.com/dms/image/C4E1BAQEP1qSz0r5URg/company-background_10000/0?e=2159024400&v=beta&t=NSPcEPkWo2GFIWArtamt_15UgvQPq02_CQd5Efay5gg" width="900px" />
 </p>
+
 <h1 align="center"> 
   Bootcamp AceleraDev Java - Codenation
-  
-  Weekly Challenges
 </h1>
+<h3>
+  Weekly Challenges
+</h3>
 
 <h2>:rocket: About this repository </h2> 
 

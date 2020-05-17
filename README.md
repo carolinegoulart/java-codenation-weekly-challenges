@@ -7,7 +7,8 @@
     <br>
     Weekly Challenges Resolution
 </h1>
-
+<br>
+<br>
 <h2>:rocket: About this repository </h2> 
 
 Resolution of weekly Java challenges from the bootcamp AceleraDev Java hosted by Codenation

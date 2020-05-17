@@ -5,7 +5,7 @@
 <h1 align="center"> 
     Bootcamp AceleraDev Java - Codenation
     <br>
-    ### Weekly Challenges Resolution
+    ### Weekly Challenges
 </h1>
 
 <h2>:rocket: About this repository </h2> 

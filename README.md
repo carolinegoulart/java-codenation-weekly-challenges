@@ -3,10 +3,9 @@
 </p>
 
 <h1 align="center"> 
-  Bootcamp AceleraDev Java - Codenation
-  <h3 align="center">
+    Bootcamp AceleraDev Java - Codenation
+    <br>
     Weekly Challenges Resolution
-  </h3>
 </h1>
 
 <h2>:rocket: About this repository </h2> 

@@ -13,21 +13,21 @@ import javax.persistence.EntityListeners;
 import javax.validation.constraints.NotNull;
 import java.time.LocalDateTime;
 
-@Entity
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@Entity
 @EntityListeners(AuditingEntityListener.class)
-public class Submission {
+public class Candidate {
 
-    @EmbeddedId
-    private SubmissionId id;
+	@EmbeddedId
+	private CandidateId id;
 
-    @Column
-    @NotNull
-    private Float score;
+	@Column
+	@NotNull
+	private Integer status;
 
-    @CreatedDate
-    private LocalDateTime createdAt;
+	@CreatedDate
+	private LocalDateTime createdAt;
 
 }

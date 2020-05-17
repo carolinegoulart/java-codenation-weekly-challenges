@@ -10,17 +10,20 @@ import javax.persistence.EntityListeners;
 import javax.persistence.ManyToOne;
 import java.io.Serializable;
 
-@Embeddable
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Embeddable
 @EntityListeners(AuditingEntityListener.class)
-public class SubmissionId implements Serializable {
-
-    @ManyToOne
-    private Challenge challenge;
+public class CandidateId implements Serializable {
 
     @ManyToOne
     private User user;
+
+    @ManyToOne
+    private Acceleration acceleration;
+
+    @ManyToOne
+    private Company company;
 
 }

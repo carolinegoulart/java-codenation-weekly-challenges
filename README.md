@@ -15,7 +15,11 @@ MVC Design pattern, IDE IntellieJ Idea
 
 <h2>:pencil: Challenges </h2>
 - [Challenge 1: Salary calculator (methods, lists, conditional and iterative statements)](..)
+
 - [Challenge 2: Calculating mean, mode and median (methods, lists, conditional and iterative statements)](..)
+
 - [Challenge 3: Parking manager system (builder, methods, inheritance)](..)
+
 - [Challenge 4: Football teams manager system (inheritance, polymorphism, abstract classes)](..)
+
 - [Challenge 5: Classes manager (interfaces, annotations, Java reflection)](..)

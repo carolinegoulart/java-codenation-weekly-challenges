@@ -15,8 +15,8 @@ MVC Design pattern, IDE IntellieJ Idea
 
 <h2>:pencil: Challenges </h2>
 
-[Challenge 1: Salary calculator methods, lists, conditional and iterative statements](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-01-salary-calculator)<br>
-[Challenge 2: Calculating mean, mode and median (methods, lists, conditional and iterative statements)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-01-salary-calculator)
+- [Challenge 1: Salary calculator (methods, lists, conditional and iterative statements)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-01-salary-calculator)<br>
+- [Challenge 2: Calculating mean, mode and median (methods, lists, conditional and iterative statements)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-01-salary-calculator)
 
 
 

@@ -13,9 +13,8 @@ Java 8, JUnit 4, Spring, Spring Boot, JPA, Hibernate, Maven
 
 MVC Design pattern, IDE IntellieJ Idea
 
-<h2>:pencil: Challenges </h2>
-- [Challenge 1: Salary calculator (methods, lists, conditional and iterative statements)](..)
-
+<h2>:pencil: Challenges </h2><br>
+- [Challenge 1: Salary calculator (methods, lists, conditional and iterative statements)](..)<br>
 - [Challenge 2: Calculating mean, mode and median (methods, lists, conditional and iterative statements)](..)
 
 - [Challenge 3: Parking manager system (builder, methods, inheritance)](..)

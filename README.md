@@ -26,11 +26,9 @@ Resolution of weekly Java challenges from the bootcamp AceleraDev Java hosted by
 
 * [Challenge 6: Creating entities with JPA (Hibernate, Spring Data JPA, entities, Spring Boot)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-06-creating-entities-with-JPA-and-H2-Database)
 <br>
-Create the classes (entities) according to a received entity framework with the relationships between entities, using Hibernate, Spring Data JPA, and annotations (@OneToMany, @ManyToOne, etc) to stablish the relationships. The .java files are in the [entities](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-06-creating-entities-with-JPA-and-H2-Database/java/entity) folder. I've used the in-memory H2 database to test the entities.
+Create the classes (entities) according to a received entity framework with the relationships between entities, using Hibernate, Spring Data JPA, and annotations (@OneToMany, @ManyToOne, etc) to stablish the relationships. The .java files are in the [entities]() folder. I've used the in-memory H2 database to test the entities.
 
 * [Challenge 7: Creating entities with Spring and H2 Database (Hibernate, Spring Data JPA, Spring Boot)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-07-creating-entities-with-jpa-and-h2-database)
-
-<br>
 
 * [Challenge 8: API Order Service (streams, entities, repositories)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-08-API-order-service)
 <br>Implement the methods in the [OrderServiceImplementaion](https://github.com/carolinegoulart/java-codenation-weekly-challenges/blob/master/challenge-08-API-order-service/main/service/OrderServiceImpl.java) file, receiving the ordered products as an array, searching for them in the product repository and returning the results, such as the total order value, find products by ID, and group by sale.

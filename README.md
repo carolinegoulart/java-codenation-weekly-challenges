@@ -19,5 +19,5 @@ Resolution of weekly Java challenges from the bootcamp AceleraDev Java hosted by
 * [Challenge 3: Parking manager system (builder, methods, inheritance)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-03-parking-manager-system)
 * [Challenge 4: Football teams manager system (inheritance, polymorphism, abstract classes)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-04-football-teams-manager-system)
 * [Challenge 5: Classes manager (interfaces, annotations, Java reflection)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-05-classes-manager)
-* [Challenge 6: Creating entities with JPA and H2 Database (Hibernate, Spring Data JPA, entities, Spring Boot, H2 Database)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-06-creating-entities-with-JPA-and-H2-Database)
-
+* [Challenge 6: Creating entities with JPA (Hibernate, Spring Data JPA, entities, Spring Boot)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-06-creating-entities-with-JPA-and-H2-Database)
+* [Challenge 7: Creating entities with Spring and H2 Database (Hibernate, Spring Data JPA, entities, Spring Boot, H2 Database)](https://github.com/carolinegoulart/java-codenation-weekly-challenges/tree/master/challenge-07-creating-entities-with-jpa-and-h2-database)

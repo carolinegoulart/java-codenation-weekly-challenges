@@ -9,7 +9,7 @@
 Resolution of weekly Java challenges from the bootcamp AceleraDev Java hosted by Codenation
 
 <h2>:hammer: Tools </h2>
-* Java 8, JUnit 4, Spring, Spring Boot, JPA, Hibernate, Maven
+* Java 8, JUnit 4, Spring, Spring Boot, JPA, Hibernate, Maven<br>
 * MVC Design pattern (for the more advanced challenges), IDE IntellieJ Idea
 
 <h2>:pencil: Challenges </h2>

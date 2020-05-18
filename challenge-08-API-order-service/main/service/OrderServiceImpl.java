@@ -1,7 +1,6 @@
 package br.com.codenation.service;
 
 import java.util.*;
-import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 import br.com.codenation.model.OrderItem;
@@ -27,7 +26,10 @@ public class OrderServiceImpl implements OrderService {
 
 	@Override
 	public Set<Product> findProductsById(List<Long> ids) {
-		return new HashSet<>(findProductsByIdAndReturnAList(ids));
+		return ids.stream()
+				.filter(this::checkIfIdExists)
+				.map(this::getProduct)
+				.collect(Collectors.toSet());
 	}
 
 	@Override
@@ -40,14 +42,11 @@ public class OrderServiceImpl implements OrderService {
 
 	@Override
 	public Map<Boolean, List<Product>> groupProductsBySale(List<Long> productIds) {
-		List<Product> products = findProductsByIdAndReturnAList(productIds);
+		List<Product> products = productIds.stream()
+				.filter(this::checkIfIdExists)
+				.map(this::getProduct)
+				.collect(Collectors.toList());
 		return products.stream().collect(groupingBy(Product::getIsSale));
-	}
-
-	public List<Product> filterBy(Predicate<Product> predicate, List<Long> productIds) {
-		return findProductsByIdAndReturnAList(productIds).stream()
-			.filter(predicate)
-			.collect(Collectors.toList());
 	}
 
 	public Double getProductPrice(Long productId) {
@@ -56,13 +55,6 @@ public class OrderServiceImpl implements OrderService {
 			return product.getValue() * (1 - DISCOUNT);
 		}
 		return product.getValue();
-	}
-
-	public List<Product> findProductsByIdAndReturnAList(List<Long> ids) {
-		return ids.stream()
-			.filter(this::checkIfIdExists)
-			.map(this::getProduct)
-			.collect(Collectors.toList());
 	}
 
 	public Product getProduct(Long id) {
